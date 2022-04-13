@@ -1,0 +1,26 @@
+eerste is een container maken, maak niet uit wat het is, maar liever geen div
+
+vervolgends bedenken hoe de grid eruit ziet en aantal colomen tellen
+
+stel hij is 24 breed en 16 rijen
+
+dan doe je article: Display:grid;
+
+je begint met de colomen, dat doe je door: grid-template-colums en door repeat() te doen kan je herhalen. Dus repeat(24,50px);
+
+maar hij mag niet in pixels, dus doe je font-size:62.5% zodat je rem kan toepassen in de html tag
+
+verander de code naar repeat(24,5rem);
+
+daarna doe je de rijen met grid-template-rows: en je doet het 16 keer dus repeat(16,5rem);
+
+Gefeliciteerd, nu heb je een grid!
+
+Maak items in de div container
+
+je kan per nummer aangeven waar hij moet beginnen, en waar hij moet eindigen
+
+Je gebruikt daarvoor grid-colum: en dan van vakje 18/24;
+en grid row 6/10; voor de rijen
+
+
